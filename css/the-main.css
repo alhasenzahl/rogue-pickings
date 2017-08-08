@@ -1,0 +1,129 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: Montserrat;
+}
+
+/***** GRID STYLES *****/
+
+.full-width {
+	width: 1200px;
+	margin: auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width, .middle {
+	width: 394px;
+	float: left;
+}
+
+/***** HEADER STYLES *****/
+
+header h1 {
+	font-family: Montserrat;
+	size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 44px;
+}
+
+header h1 span {
+	color: #77a466;
+}
+
+nav ul li {
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 22px;
+	float: right;
+	color: #77a466;
+	margin-top: 15px;
+}
+
+/***** MAIN CSS *****/
+
+main img {
+	border-bottom: 3px solid #77a466;
+	border-top: 3px solid #77a466;
+	margin-top: -30px;
+}
+
+main h3 {
+	color: #77a466;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+main p {
+	font-size: 16px;
+	padding-bottom: 10px;
+	line-height: 25px;
+}
+
+.third-width h5, .middle h5 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.specials {
+	color: #77a466;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+.review {
+	line-height: 21px;
+}
+
+.address {
+	line-height: 24px;
+}
+
+#bottom .third-width, .middle {
+	height: 210px;
+	padding-top: 15px;
+	border-top: #dedbdc solid 1px;
+	border-bottom: #dedbdc solid 1px;
+}
+
+.box {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.middle {
+	border-left: #dedbdc solid 1px;
+	border-right: #dedbdc solid 1px;
+}
+
+/***** FOOTER CSS *****/
+
+footer {
+	clear: both;
+}
+
+footer h3 {
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 30px;
+}
+
+footer span {
+	color: #77a466;
+	text-transform: lowercase;
+	font-family: Satisfy;
+	font-size: 22px;
+}
+
+/***** Just need to style the footer and fix the borders on middle box.  also fix the margins and padding around some of the elements *****/
